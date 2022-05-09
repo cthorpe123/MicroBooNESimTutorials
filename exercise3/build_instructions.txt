@@ -1,0 +1,26 @@
+# To build the PeLEE ntuple creator code. Do the following after
+# you've set up.
+
+# Create a new build area
+mkdir searchingfornues
+cd searchingfornues
+mrb newDev
+source localProducts_larsoft_v08_05_00_17_e17_prof/setup
+
+# Clone the code
+cd srcs/
+mrb g -t UBOONE_SUITE_v08_00_00_54 ubana
+cd ubana/ubana
+rm -rf searchingfornues
+git clone https://github.com/ubneutrinos/searchingfornues 
+cd searchingfornues/
+git checkout -b v30genie -t origin/v30genie
+
+# You will get an error about the branch v30genie already
+# existing. Ignore this.
+
+# Build the code.
+cd $MRB_TOP/srcs
+mrbsetenv
+mrb i -j 10
+mrbslp

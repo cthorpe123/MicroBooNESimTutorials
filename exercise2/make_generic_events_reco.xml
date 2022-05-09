@@ -4,7 +4,7 @@
 
 <!-- Production Project -->
 <!DOCTYPE project [
-<!ENTITY release "v08_00_00_61">
+<!ENTITY release "v08_00_00_54">
 <!ENTITY file_type "overlay">
 <!ENTITY run_type "physics">
 <!ENTITY user "cthorpe">
@@ -16,7 +16,7 @@
 <project name="&name;">
 
   <!-- Project size -->
-  <numevents>-1</numevents>
+  <numevents>25</numevents>
 
   <!-- Operating System -->
   <os>SL7</os>
@@ -46,12 +46,12 @@
   <fcl>reco_uboone_mcc9_8_driver_overlay_stage1b.fcl</fcl>
   <fcl>reco_uboone_mcc9_8_driver_overlay_stage1c.fcl</fcl>
   <fcl>reco_uboone_mcc9_8_driver_overlay_stage2.fcl</fcl>
-  <outdir>/pnfs/uboone/scratch/users/&user;/MCC9/&name;/generic_sample/reco2</outdir>
-  <logdir>/pnfs/uboone/scratch/users/&user;/MCC9/&name;/generic_sample/reco2</logdir>
-  <workdir>/pnfs/uboone/resilient/users/&user;/MCC9/&name;/work/generic_sample/reco2</workdir>
-  <bookdir>/uboone/data/users/&user;/book/MCC9/&name;/generic_sample/reco2</bookdir>
+  <outdir>/pnfs/uboone/scratch/users/&user;/MCC9/&name;/generic_sample/bnb_reco2</outdir>
+  <logdir>/pnfs/uboone/scratch/users/&user;/MCC9/&name;/generic_sample/bnb_reco2</logdir>
+  <workdir>/pnfs/uboone/resilient/users/&user;/MCC9/&name;/work/generic_sample/bnb_reco2</workdir>
+  <bookdir>/uboone/data/users/&user;/book/MCC9/&name;/generic_sample/bnb_reco2</bookdir>
   <maxfilesperjob>1</maxfilesperjob>
-  <numjobs>20</numjobs>
+  <numjobs>5</numjobs>
   <datatier>reconstructed</datatier>
   <memory>3500</memory>
   <schema>root</schema>
@@ -83,7 +83,7 @@
   <workdir>/pnfs/uboone/resilient/users/&user;/MCC9/&name;/work/generic_sample/numi_reco2</workdir>
   <bookdir>/uboone/data/users/&user;/book/MCC9/&name;/generic_sample/numi_reco2</bookdir>
   <maxfilesperjob>1</maxfilesperjob>
-  <numjobs>20</numjobs>
+  <numjobs>5</numjobs>
   <datatier>reconstructed</datatier>
   <memory>3500</memory>
   <schema>root</schema>
