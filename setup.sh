@@ -9,3 +9,5 @@ setup mrb -o
 
 unsetup larbatch
 setup larbatch v01_51_15
+
+export SIM_TUTORIAL=$PWD

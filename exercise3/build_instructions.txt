@@ -2,6 +2,7 @@
 # you've set up.
 
 # Create a new build area
+cd $SIM_TUTORIAL/exercise3
 mkdir searchingfornues
 cd searchingfornues
 mrb newDev
