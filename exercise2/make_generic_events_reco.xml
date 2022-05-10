@@ -53,7 +53,7 @@
   <maxfilesperjob>1</maxfilesperjob>
   <numjobs>5</numjobs>
   <datatier>reconstructed</datatier>
-  <memory>3500</memory>
+  <memory>8000</memory>
   <schema>root</schema>
   <datafiletypes>root,pndr</datafiletypes>
   <disk>35GB</disk>
@@ -85,7 +85,7 @@
   <maxfilesperjob>1</maxfilesperjob>
   <numjobs>5</numjobs>
   <datatier>reconstructed</datatier>
-  <memory>3500</memory>
+  <memory>8000</memory>
   <schema>root</schema>
   <datafiletypes>root,pndr</datafiletypes>
   <disk>35GB</disk>
